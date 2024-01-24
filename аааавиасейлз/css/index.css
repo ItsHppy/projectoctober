@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: lightskyblue;
+}
+
+.signup {
+    height: 100vh;
+    width: 55vw;
+    background-color: white;
+}
+
+.signup a1 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-left: 64px;
+}
+
+.signup h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 790;
+    line-height: 36px;
+    padding-top: 136px;
+}
+
+.signup h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #CCC;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 55px;
+    gap: 30px;
+}
+
+form label input {
+    border: 3px solid lightgray;
+    border-radius: 5px;
+}
+
+.rectangle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #284A5E;
+    background-color: #27485D;
+    box-shadow: 0px 2px 2px 2px rgba(204, 204, 204, 0.10);
+}
+
+.signup a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #476D73;
+    font-family: Space Grotesk;
+    font-size: small;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration-line: underline;
+    padding-left: 5px;
+}
+
+.rectangle input {
+    background-color: #27485D;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.einstein {
+    height: 100vh;
+    width: 45vw;
+    background: linear-gradient(162deg, #517879 4.83%, #1E3E57 103.44%);
+}
+
+.einstein p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-top: 40px;
+    padding-left: 371px;
+}
+
+.einstein p1 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 24px;
+}
+
+.einstein h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 431px;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 96px;
+    padding-top: 205px;
+    padding-left: 95px;
+}
+
+.einstein h5 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-left: 108px;
+    padding-top: 18px;
+}
